@@ -6,11 +6,18 @@ public class Cuenta {
     private Double saldo;
     private Cliente titular;
 
+    //Constructor
+
     public Cuenta(Cliente titular) {
         this.titular = titular;
         saldo = 0.0;
         //System.out.println("CREASTE UNA NUEVA CUENTA");
     }
+
+    //Metodos
+
+
+
 
     public void depositar(Double platita){
         saldo = saldo + platita;
